@@ -1,0 +1,17 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node --extensions '.ts'",
+    "build": "babel --extensions '.ts' src --out-dir dist"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
